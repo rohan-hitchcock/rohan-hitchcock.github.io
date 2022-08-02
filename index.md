@@ -66,7 +66,7 @@ The aim of this project wa to determine a stochastic model the motion for a cert
 cells residing in the liver. I worked with and was supervised by Dr Lynette Beattie (Dept. Microbiology and Immunology), 
 Professor Jonathan Manton (Dept. Electrical and Electronic Engineering) 
 and Professor William Heath (Dept. Microbiology and Immunology), all at The University of Melbourne.
-- [AMSI Vacation Research Scholarship]((https://vrs.amsi.org.au/student-profile/rohan-hitchcock/)) ([report](notes/amsi-vrs-report.pdf)).
+- [AMSI Vacation Research Scholarship](https://vrs.amsi.org.au/student-profile/rohan-hitchcock/) ([report](notes/amsi-vrs-report.pdf)).
 In the summer of 2019/2020 I completed a six week research project at the 
 University of Western Australia under the supervision of Dr John Bamberg and Professor 
 Michael Guidici. My project was centred around understanding the paper "Octonions, Albert Vectors 
