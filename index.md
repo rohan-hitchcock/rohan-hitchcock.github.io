@@ -25,7 +25,7 @@ and $$V(y_1, \cdots, y_m)$$ are algebraic subsets of the zero set of $$U - V$$.
 - Matrix factorisations and geometry ([notes](notes/matrix-factorisations-geometry.pdf), [video](https://www.youtube.com/watch?v=Wa_kQs0PGKY)).
 - The Perturbation Lemma ([notes](notes/pertubation-lemma.pdf), [video1](https://www.youtube.com/watch?v=-gWUA5tCgc4), [video2](https://www.youtube.com/watch?v=n_jlHU0FuwA)).
 - Composition in the bicategory of Landau-Ginzburg models ([notes](notes/composition-in-LG.pdf), [video](https://www.youtube.com/watch?v=MZhsDkBHPmY)).
-- The cut operation ([notes](notes/cut-operation.pdf)).
+- The cut operation ([notes](notes/cut-operation.pdf), [video](https://www.youtube.com/watch?v=zbAYN4MsEVA)).
 
 ### Other notes
 - Introduction to idempotent completion in preadditive categories ([notes](notes/idempotents.pdf)).
