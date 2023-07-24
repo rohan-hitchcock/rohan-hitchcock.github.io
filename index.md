@@ -11,8 +11,7 @@ and the University of Melbourne. I am looking at simulations of physical systems
 using neural networks. 
 
 
-
-
+I am currently running [a seminar on statistical mechanics](stat-mech).
 
 # Masters thesis
 I have recently completed a Master of Science in Mathematics and Statistics
