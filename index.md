@@ -6,16 +6,22 @@ layout: home
 katex: true
 ---
 
-My name is Rohan Hitchcock and I am currently completing a Masters in Mathematics 
-and Statistics at 
-the University of Melbourne. You can read my 
-CV [here](cv.pdf).
+My name is Rohan Hitchcock and I am currently a PhD Candidate at [CSRIO](https://www.csiro.au)
+and the University of Melbourne. I am looking at simulations of physical systems 
+using neural networks. 
+
+
 
 
 
 # Masters thesis
-I am currently completing a masters thesis on the bicategory of Landau-Ginzburg models
-under the supervision of Dr Daniel Murfet.
+I have recently completed a Master of Science in Mathematics and Statistics
+at the University of Melbourne. I completed a thesis
+under the supervision of [Dr Daniel Murfet](therisingsea.org) 
+which studied the bicategory of Landau-Ginzburg models, which you can read 
+[here](msc-thesis.pdf).
+
+
 This bicategory can be thought of as a bicategory in which the objects are polynomials with 
 isolated singularities and the 1-morphisms between polynomials $$U(x_1, \cdots, x_n)$$
 and $$V(y_1, \cdots, y_m)$$ are algebraic subsets of the zero set of $$U - V$$.
@@ -37,7 +43,7 @@ This is an edited version of an assessment for a subject called
 
 
 # Deep learning and singular learning theory
-I began my thesis looking at deep learning, algebraic geometry and singular 
+I began my Master's thesis looking at deep learning, algebraic geometry and singular 
 learning theory, along the lines of the book *Algebraic Geometry and Statistical 
 Learning Theory* (2009) by Sumio Watanabe.
 
