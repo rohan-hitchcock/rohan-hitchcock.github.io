@@ -16,7 +16,7 @@ I am currently running [a seminar on statistical mechanics](stat-mech).
 # Masters thesis
 I have recently completed a Master of Science in Mathematics and Statistics
 at the University of Melbourne. I completed a thesis
-under the supervision of [Dr Daniel Murfet](therisingsea.org) 
+under the supervision of [Dr Daniel Murfet](http://therisingsea.org) 
 which studied the bicategory of Landau-Ginzburg models, which you can read 
 [here](msc-thesis.pdf).
 
