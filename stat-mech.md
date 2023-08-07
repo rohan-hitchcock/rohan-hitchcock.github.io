@@ -10,7 +10,7 @@ can join this seminar online on [metauni](https://metauni.org), or in-person at
 the University of Melbourne.
 
 ## Talks
-- *3/9/23* ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/FDLbuybNbfs)) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. 
+- *3/9/23* ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM)) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. 
 
 ## Texts
 - Pathria and Beale (2011) *Statistical Mechanics*
