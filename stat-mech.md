@@ -11,7 +11,7 @@ the University of Melbourne. Post-seminar discussion happens in the #physics cha
 
 ## Talks
 - *3/9/23* ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM)) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. 
-- *17/9/23* ([notes](/stat-mech/entropy-and-boltzmann.pdf)) Entropy and the Boltzmann distribution.
+- *17/9/23* ([notes](/stat-mech/entropy-and-boltzmann.pdf), [video](https://youtu.be/DwyIcfzT8e8)) Entropy and the Boltzmann distribution.
 
 ## Texts
 - Pathria and Beale (2011) *Statistical Mechanics*
