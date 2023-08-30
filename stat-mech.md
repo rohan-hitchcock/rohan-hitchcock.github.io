@@ -12,10 +12,12 @@ the University of Melbourne. Post-seminar discussion happens in the #physics cha
 ## Talks
 - *3/8/23* ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM)) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. 
 - *17/8/23* ([notes](/stat-mech/entropy-and-boltzmann.pdf), [video](https://youtu.be/DwyIcfzT8e8)) Entropy and the Boltzmann distribution.
-- *31/8/23* Stochastic processes.
+- *31/8/23* Stochastic processes ([notes](/stat-mech/stochastic-processes.pdf)).
 - *14/9/23* Stochastic differential equations.
 
 
 ## Texts
 - Pathria and Beale (2011) *Statistical Mechanics*
 - E. T. Jaynes (1957) "Information Theory and Statistical Mechanics" *Physical Review* 106.4 pp. 620-630
+- B. Øksendal (2013) "Stochastic differential equations" 6th ed.
+- J. H. Manton (2013) "A Primer on Stochastic Differential Geometry for Signal Processing,” *IEEE Journal of Selected Topics in Signal Processing*, 7.4 pp. 681–699 <http://arxiv.org/abs/1302.0430>
