@@ -5,7 +5,7 @@ katex: true
 date: 2023-10-19
 ---
 
-*Notes for a talk I gave the the [metauni](https://metauni.org) AI Safety reading group.*
+*Notes for a talk I gave the the [metauni AI Safety reading group](https://metauni.org/ai-safety/)*
 
 ---
 
