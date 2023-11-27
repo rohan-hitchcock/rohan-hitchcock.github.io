@@ -27,9 +27,9 @@ on training frontier models.
 
 Some limitations of the proposed solution:
 - Only focussed on training runs done in large, specialised, known data centers. 
-- Chips produced before such a framework comes into place will escape monitoring 
-- Doesn't apply to small models
-- Once a model is created it doesn't restrict its proliferation
+- Chips produced before such a framework comes into place will escape monitoring.
+- Doesn't apply to small models.
+- Once a model is created it doesn't restrict its proliferation.
 
 ## Problem statement
 
