@@ -25,6 +25,6 @@ the University of Melbourne. Post-seminar discussion happens in the #physics cha
 ## Texts
 - Pathria and Beale (2011) *Statistical Mechanics*
 - E. T. Jaynes (1957) "Information Theory and Statistical Mechanics" *Physical Review* 106.4 pp. 620-630
-- B. Øksendal (2013) "Stochastic differential equations" 6th ed.
+- B. Øksendal (2013) *Stochastic differential equations*
 - J. H. Manton (2013) "A Primer on Stochastic Differential Geometry for Signal Processing” *IEEE Journal of Selected Topics in Signal Processing*, 7.4 pp. 681–699 <http://arxiv.org/abs/1302.0430>
 - H. S. Seung, H. Sompolinsky and N. Tishby (1992) "Statistical Mechanics of Learning from Examples" *Physical Review A* 45.8 pp. 6056-6091
