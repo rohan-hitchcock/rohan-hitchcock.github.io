@@ -9,12 +9,17 @@ This is the webpage for the seminar I am running on statistical mechanics. You
 can join this seminar online on [metauni](https://metauni.org), or in-person at 
 the University of Melbourne. Post-seminar discussion happens in the #physics channel of the metauni discord. [Click here](https://discord.gg/JbYbXWJAhB) to join.
 
+## Speakers 
+- Rohan Hitchcock
+- [Ben Gerraty](https://bengerraty.github.io)
+
 ## Talks
-- *3/8/23* ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM)) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. 
-- *17/8/23* ([notes](/stat-mech/entropy-and-boltzmann.pdf), [video](https://youtu.be/DwyIcfzT8e8)) Entropy and the Boltzmann distribution.
-- *31/8/23* ([notes](/stat-mech/stochastic-processes.pdf), [video](https://youtu.be/sa4y1G4VHyQ)) Stochastic processes.
-- *14/9/23* ([notes](/stat-mech/stochastic-integration-and-sdes.pdf)) Stochastic differential equations.
-- *28/9/23* ([notes](/stat-mech/statistical-mechanics-of-learning-from-examples-notes.pdf)) Discussing the paper "Statistical Mechanics of Learning from Examples" (1992) by H. S. Seung, H. Sompolinsky and N. Tishby
+- *3/8/23* (Rohan) What is statistical mechanics? Hamiltonian systems and Liouville's theorem. ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM))
+- *17/8/23* (Rohan) Entropy and the Boltzmann distribution. ([notes](/stat-mech/entropy-and-boltzmann.pdf), [video](https://youtu.be/DwyIcfzT8e8))
+- *31/8/23* (Rohan) Stochastic processes. ([notes](/stat-mech/stochastic-processes.pdf), [video](https://youtu.be/sa4y1G4VHyQ))
+- *14/9/23* (Rohan) Stochastic differential equations. ([notes](/stat-mech/stochastic-integration-and-sdes.pdf))
+- *28/9/23* (Rohan) Discussing the paper "Statistical Mechanics of Learning from Examples" (1992) by H. S. Seung, H. Sompolinsky and N. Tishby ([notes](/stat-mech/statistical-mechanics-of-learning-from-examples-notes.pdf))
+- *30/11/23* (Ben) Statistical Field Theory 1: 1D Ising Model to Quantum Spin ([notes](https://bengerraty.github.io/notes/SFT1-2.pdf))
 
 
 ## Texts
