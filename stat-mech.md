@@ -21,7 +21,7 @@ the University of Melbourne. Post-seminar discussion happens in the #physics cha
 - *28/9/23* (Rohan) Discussing the paper "Statistical Mechanics of Learning from Examples" (1992) by H. S. Seung, H. Sompolinsky and N. Tishby. ([notes](/stat-mech/statistical-mechanics-of-learning-from-examples-notes.pdf))
 - *30/11/23* (Ben) Statistical Field Theory 1: 1D Ising Model to Spin-1/2 Part 1. ([notes](https://bengerraty.github.io/notes/SFT1-2.pdf))
 - *14/12/23* (Ben) Statistical Field Theory 1: Introduction and 1D Ising Model to Spin-1/2 Part 2. ([notes](https://bengerraty.github.io/notes/SFT1-3.pdf))
-- *TBD* (Ben) Statistical Field Theory 2: 2D Classical Ising Model to 1D Quantum Ising Model Part 1. ([notes](https://bengerraty.github.io/notes/SFT2-1.pdf))
+- *18/12/24* (Ben) Statistical Field Theory 2: 2D Classical Ising Model to 1D Quantum Ising Model Part 1. ([notes](https://bengerraty.github.io/notes/SFT2-1.pdf))
 
 
 ## Texts
