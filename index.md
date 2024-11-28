@@ -11,7 +11,10 @@ and the University of Melbourne. I am looking at simulations of physical systems
 using neural networks. 
 
 
-I am currently running [a seminar on statistical mechanics](stat-mech).
+# Recent talks
+- *28/11/24* On the convergence of SGLD. ([notes](notes/sgld-convergence.pdf))
+- In 2023 I ran [a seminar series on statistical mechanics](stat-mech). 
+
 
 # Masters thesis
 I have recently completed a Master of Science in Mathematics and Statistics
