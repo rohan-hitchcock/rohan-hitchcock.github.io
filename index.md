@@ -6,29 +6,55 @@ layout: home
 katex: true
 ---
 
-My name is Rohan Hitchcock and I am currently a PhD Candidate at [CSRIO](https://www.csiro.au)
-and the University of Melbourne. I am looking at simulations of physical systems 
-using neural networks. 
+My name is Rohan Hitchcock and I am currently a PhD Candidate at the University 
+of Melbourne and [CSRIO](https://www.csiro.au). I am interested in understanding 
+how deep learning works, with a view towards improving the interpretability 
+and safety of large, complex and highly capable models. I see
+*[singular learning theory](https://metauni.org/slt/)* and 
+*[developmental interpretability](https://devinterp.com/)* as promising directions.
+In my PhD I am 
+thinking about the mathematical theory of singular learning theory and developmental 
+interpretability (e.g. improving and better understanding local-learning coefficient estimation), 
+and, in collaboration with CSIRO, applying these interpretability methods to neural networks trained 
+to simulate physical systems.
 
+Prior to my PhD I completed a Masters thesis in mathematics, in algebraic geometry and homological 
+algebra at the University of Melbourne. My thesis investigated aspects of 
+the *bicategory of Landau-Ginzburg models*, a mathematical structure which 
+describes relationships between different algebraic singularities. I focused on 
+methods for explicitly computing these relationships (morphisms), as opposed to 
+simply proving that such a relationship exists, and contributed algorithms for 
+doing so. These algorithms lead to the characterisation of a situation under which 
+an important construction can be done more simply. 
 
-# Recent talks
-- *28/11/24* On the convergence of SGLD. ([notes](notes/sgld-convergence.pdf))
-- In 2023 I ran [a seminar series on statistical mechanics](stat-mech). 
+I currently work as a tutor (teaching assistant) in the School of Mathematics and 
+Statistics and the School of Computing and Information Systems at the University of 
+Melbourne, where I have taught
+undergraduate classes on artificial intelligence, theoretical computer science, 
+linear algebra and vector calculus. You can see more about my teaching experience 
+[here](teaching). 
 
+# Publications 
+- *(Coming soon)* R. Hitchcock et. al., Emergence of computational structure in a neural network physics simulator
+- (2022) R. Hitchcock, Differentiation, Division and the Bicategory of Landau-Ginzburg Models, MSc Thesis ([thesis](msc-thesis), [code](https://github.com/rohan-hitchcock/msc-thesis-examples), [talk](https://www.youtube.com/watch?v=386z_oBmR3w)). Supervised by [Daniel Murfet](http://therisingsea.org).
+- (2020) Kato et. al., Display of Native Antigen on cDC1 That Have Spatial Access to Both T and B Cells Underlies Efficient Humoral Vaccination ([paper](https://doi.org/10.4049/jimmunol.2000549))
 
-# Masters thesis
-I have recently completed a Master of Science in Mathematics and Statistics
-at the University of Melbourne. I completed a thesis
-under the supervision of [Dr Daniel Murfet](http://therisingsea.org) 
-which studied the bicategory of Landau-Ginzburg models, which you can read 
-[here](msc-thesis.pdf).
+# Talks and notes
 
+- On the convergence of SGLD ([notes](notes/sgld-convergence.pdf)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 28/11/2024*
+- The Łojasiewicz exponent ([handwritten notes](notes/lojasiewicz-exponent.pdf)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 1/8/2024*
+- On Shavit (2023) "What does it take to catch a Chinchilla?" ([notes](notes/2023-10-19-ai-safety-seminar)) *[AI safety reading group](https://metauni.org/ai-safety/)*
+- Induction heads and phase transitions ([slides](notes/2023-6-slt-alignment-talk-mech-interp.pdf), [video](https://www.youtube.com/watch?v=0Dwimu1q5yk)) *[SLT & Alignment Summit 2023](https://timaeus.co/events/2023-q2-berkeley-conference)*
+- Induction heads ([notes](notes/2023-4-6-slt-seminar-induction-heads), [video](https://youtu.be/eCQWIla-TSY)) *[Singular Learning Theory seminar](https://metauni.org/slt/), 6/4/2023*
 
-This bicategory can be thought of as a bicategory in which the objects are polynomials with 
-isolated singularities and the 1-morphisms between polynomials $$U(x_1, \cdots, x_n)$$
-and $$V(y_1, \cdots, y_m)$$ are algebraic subsets of the zero set of $$U - V$$.
+### Statistical mechanics seminar ([page](stat-mech))
+- What is statistical mechanics? Hamiltonian systems and Liouville's theorem. ([notes](/stat-mech/intro.pdf), [video](https://youtu.be/D2Lyxkf5gIM)).
+- Entropy and the Boltzmann distribution. ([notes](/stat-mech/entropy-and-boltzmann.pdf), [video](https://youtu.be/DwyIcfzT8e8)).
+- Stochastic processes ([notes](/stat-mech/stochastic-processes.pdf), [video](https://youtu.be/sa4y1G4VHyQ)).
+- Stochastic differential equations ([notes](/stat-mech/stochastic-integration-and-sdes.pdf))
+- Discussing Seung, Sompolinsky, Tishby (1992) "Statistical Mechanics of Learning from Examples" ([notes](/stat-mech/statistical-mechanics-of-learning-from-examples-notes.pdf)).
 
-### Talks in the Metauni Landau-Ginzburg Seminar ([seminar webpage](https://metauni.org/lg))
+### Landau-Ginzburg seminar ([page](https://metauni.org/lg))
 - An introduction to bicategories ([notes](notes/bicategories.pdf), [video](https://www.youtube.com/watch?v=K6W_3tMz0qA)).
 - Matrix factorisations and geometry ([notes](notes/matrix-factorisations-geometry.pdf), [video](https://www.youtube.com/watch?v=Wa_kQs0PGKY)).
 - The Perturbation Lemma ([notes](notes/pertubation-lemma.pdf), [video1](https://www.youtube.com/watch?v=-gWUA5tCgc4), [video2](https://www.youtube.com/watch?v=n_jlHU0FuwA)).
@@ -36,52 +62,12 @@ and $$V(y_1, \cdots, y_m)$$ are algebraic subsets of the zero set of $$U - V$$.
 - The cut operation ([notes](notes/cut-operation.pdf), [video1](https://www.youtube.com/watch?v=zbAYN4MsEVA), [video2](https://www.youtube.com/watch?v=e1c5HosIs_g)).
 - Differentiation and division ([notes](notes/differentiation-and-division.pdf), [video1](https://www.youtube.com/watch?v=tiYctrHB-b4), [video2](https://www.youtube.com/watch?v=0dweO2-4ME8)).
 - The cut operation revisited ([notes](notes/cut-operation-2.pdf), [video](https://www.youtube.com/watch?v=M8c3n2-didI)).
-
-### Other notes
 - Introduction to idempotent completion in preadditive categories ([notes](notes/idempotents.pdf)).
-- Another introduction to matrix factorisations ([notes](notes/matrix-factorisations-ses.pdf)). 
-This is an edited version of an assessment for a subject called 
-*Communication for Research Scientists*, where the task was to write a short journal-style article.
+- Introduction to matrix factorisations ([notes](notes/matrix-factorisations-ses.pdf)). 
 
-
-# Deep learning and singular learning theory
-I began my Master's thesis looking at deep learning, algebraic geometry and singular 
-learning theory, along the lines of the book *Algebraic Geometry and Statistical 
-Learning Theory* (2009) by Sumio Watanabe.
-
-- A short review of literature on singular learning theory ([notes](notes/slt-literature-review.pdf)).
-- A non-technical blog-style article on deep learning and singular learning theory ([notes](notes/slt-blog-article.pdf)).
-This was an assessment piece for a subject called *Communication for Research Scientists*.
-- Notes from a talk on blow-ups and singular learning theory ([notes](notes/blowups.pdf)).
-- A 'Stone-Weierstrass' Theorem for neural networks ([notes](notes/nn-approximation.pdf)).
-
-In the January 2021 I completed the course 
-[*The Mathematical Engineering of Deep Learning*](https://deeplearningmath.org)
-as part of the [Australian Mathematical Sciences Institute Summer School](https://ss.amsi.org.au). 
-
-- Final project ([notes](notes/amsi-ss-final-project-abstract.pdf), [video](https://youtu.be/UnyXhQRXOoU), [code](https://github.com/rohan-hitchcock/deep-learning-math-course)). This project was a review and demonstration of results in the paper "Wasserstein GAN" (2017)
-by M. Arjovsky, S. Chintala, and L. Bottou [arXiv: 1701.07875 \[stat.ML\]](https://arxiv.org/abs/1701.07875).
-
-
-# Miscellaneous
-- Paper: "Display of Native Antigen on cDC1 That Have Spatial Access to Both T and B Cells Underlies Efficient Humoral Vaccination" (2020)
-by Kato et. al. [doi:10.4049/jimmunol.2000549](https://doi.org/10.4049/jimmunol.2000549). 
-My contribution to this paper consisted of writing simulations of biological processes 
-to support experimental data, and rewriting legacy image processing code. 
-This work was undertaken while I was a research assistant at the Peter Doherty Institute for Infection and Immunity.
-- From June 2018 to August 2020 I worked on a cross-disciplinary research project 
-at The Peter Doherty Institute for Infection and Immunity and The University of 
-Melbourne ([code](https://github.com/rohan-hitchcock/tcells-portfolio)). 
-The aim of this project wa to determine a stochastic model the motion for a certain population of immune 
-cells residing in the liver. I worked with and was supervised by Dr Lynette Beattie (Dept. Microbiology and Immunology), 
-Professor Jonathan Manton (Dept. Electrical and Electronic Engineering) 
-and Professor William Heath (Dept. Microbiology and Immunology), all at The University of Melbourne.
-- [AMSI Vacation Research Scholarship](https://vrs.amsi.org.au/student-profile/rohan-hitchcock/) ([report](notes/amsi-vrs-report.pdf)).
-In the summer of 2019/2020 I completed a six week research project at the 
-University of Western Australia under the supervision of Dr John Bamberg and Professor 
-Michael Guidici. My project was centred around understanding the paper "Octonions, Albert Vectors 
-and the group $$E_6(F)$$" (2019) by J. N. Bray, Y. Stepanov and R. A. Wilson 
-[arXiv:1906.08846](https://arxiv.org/abs/1906.08846).
-
-
-
+### Miscellaneous
+- Blow-ups and singular learning theory ([notes](notes/blowups.pdf)).
+- A 'Stone-Weierstrass' theorem for neural networks ([notes](notes/nn-approximation.pdf)).
+- R. Hitchcock (2020) Alternative construction of the groups of type $$E_6$$ ([report](notes/amsi-vrs-report.pdf)) *AMSI Vacation Research Scholarship*, supervised by John Bamberg and Michael Giudici. 
+- Code for tracking T-cells and mapping blood vessels in the liver ([code](https://github.com/rohan-hitchcock/tcells-portfolio)). This was produced between 2018--2020 during my time as a research assistant at the Peter Doherty Institute. I was supervised by Lynette Beattie, 
+Jonathan Manton and William Heath. 

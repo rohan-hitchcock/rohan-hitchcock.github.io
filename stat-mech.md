@@ -5,9 +5,9 @@ katex: false
 ---
 
 
-This is the webpage for the seminar I am running on statistical mechanics. You 
-can join this seminar online on [metauni](https://metauni.org), or in-person at 
-the University of Melbourne. Post-seminar discussion happens in the #physics channel of the metauni discord. [Click here](https://discord.gg/JbYbXWJAhB) to join.
+This is the webpage for the seminar I ran on statistical mechanics in [metauni](https://metauni.org). 
+The purpose of this seminar was to learn about statistical mechanics, with a view 
+towards understanding apparent 'phase transitions' in deep learning.
 
 ## Speakers 
 - Rohan Hitchcock
