@@ -24,7 +24,7 @@ the *bicategory of Landau-Ginzburg models*, a mathematical structure which
 describes relationships between different algebraic singularities. I focused on 
 methods for explicitly computing these relationships (morphisms), as opposed to 
 simply proving that such a relationship exists, and contributed algorithms for 
-doing so. These algorithms lead to the characterisation of a situation under which 
+doing so. These algorithms led to the characterisation of a situation under which 
 an important construction can be done more simply. 
 
 I currently work as a tutor (teaching assistant) in the School of Mathematics and 
