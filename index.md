@@ -14,7 +14,7 @@ and safety of large, complex and highly capable models. I see
 *[developmental interpretability](https://devinterp.com/)* as promising directions.
 In my PhD I am 
 thinking about the mathematical theory of singular learning theory and developmental 
-interpretability (e.g. improving and better understanding local-learning coefficient estimation), 
+interpretability (e.g. improving and better understanding local learning coefficient estimation), 
 and, in collaboration with CSIRO, applying these interpretability methods to neural networks trained 
 to simulate physical systems.
 
