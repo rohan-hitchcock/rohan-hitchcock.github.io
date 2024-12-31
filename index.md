@@ -41,7 +41,7 @@ linear algebra and vector calculus. You can see more about my teaching experienc
 
 # Talks and notes
 
-- On the convergence of SGLD ([notes](notes/sgld-convergence.pdf)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 28/11/2024*
+- On the convergence of SGLD ([notes](notes/sgld-convergence.pdf), [video](https://www.youtube.com/watch?v=EeRIXv9-eQM)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 28/11/2024*
 - The Łojasiewicz exponent ([handwritten notes](notes/lojasiewicz-exponent.pdf)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 1/8/2024*
 - On Shavit (2023) "What does it take to catch a Chinchilla?" ([notes](notes/2023-10-19-ai-safety-seminar)) *[AI safety reading group](https://metauni.org/ai-safety/)*
 - Induction heads and phase transitions ([slides](notes/2023-6-slt-alignment-talk-mech-interp.pdf), [video](https://www.youtube.com/watch?v=0Dwimu1q5yk)) *[SLT & Alignment Summit 2023](https://timaeus.co/events/2023-q2-berkeley-conference)*
