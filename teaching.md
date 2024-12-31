@@ -27,7 +27,7 @@ linear algebra.
 covering a variety of topics in vector calculus and differential equations.
 - **MAST10005 Calculus 1** (2023 Sem. 2)
 - **COMP30024 Artificial Intelligence** (2023 Sem. 1) A third-year computer 
-science subject on topics include search, game playing, reinforcement learning and 
+science subject on topics including search, game playing, reinforcement learning and 
 Bayesian inference.
 - **MAST10005 Calculus 1** (2023 Sem. 1) 
 - **MAST10007 Linear Algebra** (2023 Sem. 1)
