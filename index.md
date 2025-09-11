@@ -42,6 +42,7 @@ linear algebra and vector calculus. You can see more about my teaching experienc
 
 # Talks and notes
 
+- The empirical process in singular learning theory ([slides](notes/empirical_process_slides.pdf), [video](https://youtu.be/evtkyFINjFI)) *[Singular Learning Theory seminar](https://zachfurman.com/singular-learning-theory-seminar/) 11/9/2025*
 - On the convergence of SGLD ([notes](notes/sgld-convergence.pdf), [video](https://www.youtube.com/watch?v=EeRIXv9-eQM)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 28/11/2024*
 - The Łojasiewicz exponent ([handwritten notes](notes/lojasiewicz-exponent.pdf)) *[Singular Learning Theory seminar](https://metauni.org/slt/) 1/8/2024*
 - On Shavit (2023) "What does it take to catch a Chinchilla?" ([notes](notes/2023-10-19-ai-safety-seminar)) *[AI safety reading group](https://metauni.org/ai-safety/)*
