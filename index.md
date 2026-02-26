@@ -37,7 +37,7 @@ linear algebra and vector calculus. You can see more about my teaching experienc
 # Publications 
 - (2025) R. Hitchcock and J. Hoogland "From Global to Local: A Scalable Benchmark for Local Posterior Sampling" ([paper](http://arxiv.org/abs/2507.21449))
 - (2025) R. Hitchcock, G. W. Delaney, J. H. Manton, R. Scalzo, J. Zhu "Emergence of computational structure in a neural network physics simulator" ([paper](http://arxiv.org/abs/2504.11830))
-- (2022) R. Hitchcock, "Differentiation, Division and the Bicategory of Landau-Ginzburg Models", MSc Thesis ([thesis](msc-thesis), [code](https://github.com/rohan-hitchcock/msc-thesis-examples), [talk](https://www.youtube.com/watch?v=386z_oBmR3w)). Supervised by [Daniel Murfet](http://therisingsea.org).
+- (2022) R. Hitchcock, "Differentiation, Division and the Bicategory of Landau-Ginzburg Models", MSc Thesis ([thesis](msc-thesis.pdf), [code](https://github.com/rohan-hitchcock/msc-thesis-examples), [talk](https://www.youtube.com/watch?v=386z_oBmR3w)). Supervised by [Daniel Murfet](http://therisingsea.org).
 - (2020) Kato et. al., "Display of Native Antigen on cDC1 That Have Spatial Access to Both T and B Cells Underlies Efficient Humoral Vaccination" ([paper](https://doi.org/10.4049/jimmunol.2000549))
 
 # Talks and notes
