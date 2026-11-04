@@ -24,6 +24,7 @@ Melbourne in 2026.
 
 - "Sampling Hyperparameter Selection in SLT." *[ILIAD](https://www.iliadconference.com/), Berkeley, August 2026.*
 - "Towards Higher Confidence in Alignment." *[Australian AI Safety Forum](https://www.aisafetyforum.au/events/2026-forum/program), Sydney, July 2026.* [video](https://www.youtube.com/watch?v=OVN6BRC3UTk)
+- "Sampling from Degenerate Loss Landscapes." *[Focus Period: Mathematical Science of AI Safety](https://sites.google.com/view/mathematical-science-of-ai-saf/home), Sydney Mathematical Research Institute, December 2025.*
 - "The Empirical Process in Singular Learning Theory." *[SLT Seminar](https://zachfurman.com/singular-learning-theory-seminar/), online, September 2025.* [slides](notes/empirical_process_slides.pdf) · [video](https://youtu.be/evtkyFINjFI)
 - "Local Learning Coefficient Estimation: The Story So Far and Open Problems." *[ILIAD](https://www.iliadconference.com/), Berkeley, August 2025.* [slides](notes/2025-iliad-llc-estimation-slides.pdf)
 - "Induction Heads and Phase Transitions." *[SLT & Alignment Summit](https://timaeus.co/events/2023-q2-berkeley-conference), Berkeley, June 2023.* [slides](notes/2023-6-slt-alignment-talk-mech-interp.pdf) · [video](https://www.youtube.com/watch?v=0Dwimu1q5yk)

@@ -2,6 +2,7 @@
 \usepackage[letterpaper]{geometry}
 \usepackage{tabularx}
 \usepackage{enumitem}
+\usepackage{needspace}
 \usepackage[hidelinks]{hyperref}
 
 % Public CV for rohanhitchcock.com. Layout follows the application résumés.
@@ -9,7 +10,7 @@
 
 \setlength{\tabcolsep}{0em}
 
-\newcommand{\resumesection}[1]{\par\vspace{8pt}{\large\bfseries #1}\par\vspace{3pt}\hrule \vspace{5.5pt}}
+\newcommand{\resumesection}[1]{\par\needspace{5\baselineskip}\vspace{8pt}{\large\bfseries #1}\par\vspace{3pt}\hrule \vspace{5.5pt}}
 
 % format two pieces of text aligned left and right on the same line
 \newcommand{\leftright}[2]
@@ -17,6 +18,17 @@
 	#1 &
 	#2 \\
 \end{tabularx}}
+
+% a role within a grouped organisation entry (LinkedIn style)
+\newcommand{\role}[1]{\hspace*{1em}#1}
+
+% \work{title}{date}{details}: a publication, note or talk. The quoted title wraps
+% and the date sits right-aligned on its first line.
+\newcommand{\work}[3]{%
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash}X@{\hspace{1.5em}}r@{}}
+    ``#1'' & #2 \\
+  \end{tabularx}\par
+  {\raggedright #3\par}\medskip}
 
 \geometry{tmargin=1.7cm,bmargin=1.7cm,lmargin=2.4cm,rmargin=2.4cm}
 
@@ -32,113 +44,115 @@
     \begin{center}
         {\LARGE \textbf{Rohan Hitchcock}}\\
         \href{mailto:rohan.hitchcock@pm.me}{rohan.hitchcock@pm.me} \textbullet \,
+        \href{https://rohanhitchcock.com}{rohanhitchcock.com} \\
         \href{http://linkedin.com/in/rohan-hitchcock}{linkedin.com/in/rohan-hitchcock} \textbullet \,
-        \href{https://rohanhitchcock.com}{rohanhitchcock.com}
+        \href{https://scholar.google.com/citations?user=Ejl7aSgAAAAJ}{Google Scholar}
     \end{center}
 
     \resumesection{Experience}
 
-        \leftright{\textbf{Research Scientist}}{Jul. 2026 -- Present}
+        \leftright{\textbf{Research Scientist}}{2026--Present}
         \leftright{\textit{Resolution}}{}
 
         \medskip
 
-        \leftright{\textbf{Research Scientist}}{Mar. 2026 -- Jul. 2026}
-        \leftright{\textit{Timaeus}}{}
+        \leftright{\textbf{Timaeus}}{}
+        \leftright{\role{Research Scientist}}{2026}
+        \leftright{\role{Research Affiliate}}{2025--2026}
 
         \medskip
 
-        \leftright{\textbf{Research Affiliate}}{Oct. 2025 -- Feb. 2026}
-        \leftright{\textit{Timaeus}}{}
-
-        \medskip
-
-        \leftright{\textbf{Postgraduate Student}}{Jan. 2023 -- Feb. 2026}
+        \leftright{\textbf{Postgraduate Student}}{2023--2026}
         \leftright{\textit{The University of Melbourne \& CSIRO}}{}
 
         \medskip
 
-        \leftright{\textbf{Tutor (Teaching Assistant)}}{Jul. 2020 -- Jun. 2025}
+        \leftright{\textbf{Tutor (Teaching Assistant)}}{2020--2025}
         \leftright{\textit{The University of Melbourne}}{}
 
         \medskip
 
-        \leftright{\textbf{Research Assistant}}{Jun. 2019 -- Aug. 2020}
-        \leftright{\textit{The Peter Doherty Institute for Infection and Immunity}}{}
-
-        \medskip
-
-        \leftright{\textbf{Research Intern}}{Jun. 2018 -- Jun. 2019}
-        \leftright{\textit{The Peter Doherty Institute for Infection and Immunity}}{}
+        \leftright{\textbf{The Peter Doherty Institute for Infection and Immunity}}{}
+        \leftright{\role{Research Assistant}}{2019--2020}
+        \leftright{\role{Research Intern}}{2018--2019}
 
     \resumesection{Education}
 
-        \leftright{\textbf{Doctor of Philosophy}}{Jan. 2023 -- Feb. 2026}
-        \leftright{\textit{The University of Melbourne \& CSIRO}}{}
-
-        \medskip
-
-        \leftright{\textbf{Master of Science (with Distinction), Mathematics and Statistics}}{Dec. 2022}
+        \leftright{\textbf{Doctor of Philosophy}}{2026}
         \leftright{\textit{The University of Melbourne}}{}
 
         \medskip
 
-        \leftright{\textbf{Bachelor of Science, Mathematics and Statistics}}{Jul. 2020}
+        \leftright{\textbf{Master of Science (with Distinction), Mathematics and Statistics}}{2022}
         \leftright{\textit{The University of Melbourne}}{}
 
         \medskip
 
-        \leftright{\textbf{Diploma in Computing}}{Jul. 2020}
+        \leftright{\textbf{Bachelor of Science, Mathematics and Statistics}}{2020}
+        \leftright{\textit{The University of Melbourne}}{}
+
+        \medskip
+
+        \leftright{\textbf{Diploma in Computing}}{2020}
         \leftright{\textit{The University of Melbourne}}{}
 
     \resumesection{Publications}
-    \begin{itemize}
-        \item \textbf{R. Hitchcock} (2026) ``Singular Learning Theory for Deep
-        Learning Interpretability: Stochastic Sampling Methods and Applications
-        to Learning from Physical Systems,'' \textit{PhD Thesis}, The University
-        of Melbourne.
-        \item \textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and
-        J. Zhu (2026) ``Susceptibilities for Neural Networks Learning from
-        Physical Data,'' \textit{Advances in Neural Information Processing
-        Systems (NeurIPS 2026)}.
-        \item \textbf{R. Hitchcock} and J. Hoogland (2025) ``From Global to
-        Local: A Scalable Benchmark for Local Posterior Sampling,''
-        arXiv:2507.21449.
-        \item \textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and
-        J. Zhu (2025) ``Emergence of Computational Structure in a Neural
-        Network Physics Simulator,'' \textit{XAI4Science Workshop at the
-        International Conference on Learning Representations (ICLR 2025)}.
-        \item \textbf{R. Hitchcock} (2022) ``Differentiation, Division and the
-        Bicategory of Landau--Ginzburg Models,'' \textit{MSc Thesis}, The
-        University of Melbourne.
-        \item Y. Kato, T. M. Steiner, H.-Y. Park, \textbf{R. Hitchcock} et al.
-        (2020) ``Display of Native Antigen on cDC1 That Have Spatial Access to
-        Both T and B Cells Underlies Efficient Humoral Vaccination,''
-        \textit{Journal of Immunology} 205(7):1842--1856.
-    \end{itemize}
 
-    \resumesection{Research Notes and Talks}
-    \begin{itemize}
-        \item A. Gordon, \textbf{R. Hitchcock}, I. Mouratidis, J. Wind and
-        D. Murfet (2026) ``Interpretability as a Benchmark for Sampling,''
-        \textit{Resolution}.
-        \item \textbf{R. Hitchcock}, J. Hoogland, G. Wang and A. Gordon (2026)
-        ``Guide for Sampling Hyperparameter Selection,'' \textit{Timaeus}.
-        \item A. Gordon, \textbf{R. Hitchcock} and D. Murfet (2026)
-        ``Interpreting the Ising Model,'' \textit{Timaeus}.
-        \item D. Murfet, A. Gordon, M. Adam, G. Wang, J. Hoogland, G. Baker,
-        W. Snell, S. van Wingerden, A. Newgas, B. Snikkers and
-        \textbf{R. Hitchcock} (2026) ``Spectroscopy at Scale: Finding
-        Interpretable Structure in Pythia-1.4B,'' \textit{Timaeus}.
-        \item ``Sampling Hyperparameter Selection in SLT,'' talk, ILIAD 2026, Berkeley.
-        \item ``Towards Higher Confidence in Alignment,'' talk, Australian AI
-        Safety Forum 2026, Sydney.
-        \item ``The Empirical Process in Singular Learning Theory,'' talk, SLT
-        Seminar 2025, online.
-        \item ``Local Learning Coefficient Estimation: The Story So Far and Open
-        Problems,'' talk, ILIAD 2025, Berkeley.
-        \item ``Induction Heads and Phase Transitions,'' talk, SLT \& Alignment
-        Summit 2023, Berkeley.
-    \end{itemize}
+        \work{Singular Learning Theory for Deep Learning Interpretability: Stochastic Sampling Methods and Applications to Learning from Physical Systems}{2026}
+        {\textbf{R. Hitchcock}. \textit{PhD Thesis, The University of Melbourne.}}
+
+        \work{Susceptibilities for Neural Networks Learning from Physical Data}{2026}
+        {\textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and J. Zhu.
+        \textit{Advances in Neural Information Processing Systems (NeurIPS 2026).}}
+
+        \work{From Global to Local: A Scalable Benchmark for Local Posterior Sampling}{2025}
+        {\textbf{R. Hitchcock} and J. Hoogland. \textit{arXiv:2507.21449.}}
+
+        \work{Emergence of Computational Structure in a Neural Network Physics Simulator}{2025}
+        {\textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and J. Zhu.
+        \textit{XAI4Science Workshop at the International Conference on Learning
+        Representations (ICLR 2025).}}
+
+        \work{Differentiation, Division and the Bicategory of Landau--Ginzburg Models}{2022}
+        {\textbf{R. Hitchcock}. \textit{MSc Thesis, The University of Melbourne.}}
+
+        \work{Display of Native Antigen on cDC1 That Have Spatial Access to Both T and B Cells Underlies Efficient Humoral Vaccination}{2020}
+        {Y. Kato, T. M. Steiner, H.-Y. Park, \textbf{R. Hitchcock} et al.
+        \textit{Journal of Immunology} 205(7):1842--1856.}
+
+    \resumesection{Research Notes}
+
+        \work{Interpretability as a Benchmark for Sampling}{2026}
+        {A. Gordon, \textbf{R. Hitchcock}, I. Mouratidis, J. Wind and D. Murfet. \textit{Resolution.}}
+
+        \work{Guide for Sampling Hyperparameter Selection}{2026}
+        {\textbf{R. Hitchcock}, J. Hoogland, G. Wang and A. Gordon. \textit{Timaeus.}}
+
+        \work{Interpreting the Ising Model}{2026}
+        {A. Gordon, \textbf{R. Hitchcock} and D. Murfet. \textit{Timaeus.}}
+
+        \work{Spectroscopy at Scale: Finding Interpretable Structure in Pythia-1.4B}{2026}
+        {D. Murfet, A. Gordon, M. Adam, G. Wang, J. Hoogland, G. Baker, W. Snell,
+        S. van Wingerden, A.~Newgas, B. Snikkers and \textbf{R. Hitchcock}. \textit{Timaeus.}}
+
+    \resumesection{Talks}
+
+        \work{Sampling Hyperparameter Selection in SLT}{2026}
+        {\textit{ILIAD, Berkeley}}
+
+        \work{Towards Higher Confidence in Alignment}{2026}
+        {\textit{Australian AI Safety Forum, Sydney}}
+
+        \work{Sampling from Degenerate Loss Landscapes}{2025}
+        {\textit{Focus Period: Mathematical Science of AI Safety, Sydney Mathematical Research Institute}}
+
+        \work{The Empirical Process in Singular Learning Theory}{2025}
+        {\textit{SLT Seminar, online}}
+
+        \work{Local Learning Coefficient Estimation: The Story So Far and Open Problems}{2025}
+        {\textit{ILIAD, Berkeley}}
+
+        \work{Induction Heads and Phase Transitions}{2023}
+        {\textit{SLT \& Alignment Summit, Berkeley}}
 
 \end{document}

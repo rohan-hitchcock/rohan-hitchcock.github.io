@@ -80,7 +80,10 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: 0.15em; }
 
 header { margin-bottom: 2rem; }
-footer { margin-top: 2.5rem; }
+.more { margin-top: 2.25rem; }
+footer { margin-top: 3rem; font-size: 0.85rem; color: var(--muted); }
+footer a { color: inherit; }
+footer a:hover { color: var(--accent); }
 .links, .back { margin: 0; }
 .back { margin-bottom: 1.5rem; }
 .back + h1 { margin-bottom: 1.25rem; }
