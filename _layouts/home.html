@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<header>
+  <h1>{{ site.title }}</h1>
+  <p class="links"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+</header>
+{{ content }}
+<footer>
+  <p class="links"><a href="{{ "/notes/" | relative_url }}">Other notes</a> · <a href="{{ "/cv.pdf" | relative_url }}">CV</a> · <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}">LinkedIn</a></p>
+</footer>

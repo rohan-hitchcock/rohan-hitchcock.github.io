@@ -6,3 +6,12 @@ vendor
 
 *.DS_Store
 Gemfile.lock
+
+# LaTeX build files for cv/
+cv/*.aux
+cv/*.log
+cv/*.fls
+cv/*.fdb_latexmk
+cv/*.out
+cv/*.synctex.gz
+cv/cv.pdf

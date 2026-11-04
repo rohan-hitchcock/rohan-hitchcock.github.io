@@ -20,22 +20,15 @@
 
 title: Rohan Hitchcock
 email: rohan.hitchcock@pm.me
-description: ""
+description: "Rohan Hitchcock is a research scientist at Resolution, a nonprofit AI alignment research institute, working on singular learning theory."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://rohanhitchcock.com" # the base hostname & protocol for your site
 
-# twitter_username
-github_username:  rohan-hitchcock
 linkedin_username: rohan-hitchcock
 
 # Build settings
-theme: minima
 
-header_pages:
-  - teaching.md
 
-plugins:
-  - jekyll-feed
 
 
 
@@ -58,3 +51,11 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# GitHub Pages (Jekyll 3) replaces the default exclude list, so list everything here.
+exclude:
+  - cv/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - node_modules/

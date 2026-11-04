@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper]{geometry}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+
+% Public CV for rohanhitchcock.com. Layout follows the application résumés.
+% Build: latexmk -pdf cv.tex && cp cv.pdf ../cv.pdf
+
+\setlength{\tabcolsep}{0em}
+
+\newcommand{\resumesection}[1]{\par\vspace{8pt}{\large\bfseries #1}\par\vspace{3pt}\hrule \vspace{5.5pt}}
+
+% format two pieces of text aligned left and right on the same line
+\newcommand{\leftright}[2]
+{\begin{tabularx}{\linewidth}{l@{\extracolsep{\fill}}r}
+	#1 &
+	#2 \\
+\end{tabularx}}
+
+\geometry{tmargin=1.7cm,bmargin=1.7cm,lmargin=2.4cm,rmargin=2.4cm}
+
+\pagestyle{empty}
+
+\renewcommand\labelitemi{\textbullet}
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+\setlength{\parindent}{0cm}
+\setlength{\medskipamount}{5pt}
+
+\begin{document}
+    \begin{center}
+        {\LARGE \textbf{Rohan Hitchcock}}\\
+        \href{mailto:rohan.hitchcock@pm.me}{rohan.hitchcock@pm.me} \textbullet \,
+        \href{http://linkedin.com/in/rohan-hitchcock}{linkedin.com/in/rohan-hitchcock} \textbullet \,
+        \href{https://rohanhitchcock.com}{rohanhitchcock.com}
+    \end{center}
+
+    \resumesection{Experience}
+
+        \leftright{\textbf{Research Scientist}}{Jul. 2026 -- Present}
+        \leftright{\textit{Resolution}}{}
+
+        \medskip
+
+        \leftright{\textbf{Research Scientist}}{Mar. 2026 -- Jul. 2026}
+        \leftright{\textit{Timaeus}}{}
+
+        \medskip
+
+        \leftright{\textbf{Research Affiliate} (while completing PhD)}{Oct. 2025 -- Feb. 2026}
+        \leftright{\textit{Timaeus}}{}
+
+        \medskip
+
+        \leftright{\textbf{Postgraduate Student}}{Jan. 2023 -- Feb. 2026}
+        \leftright{\textit{The University of Melbourne \& CSIRO}}{}
+
+        \medskip
+
+        \leftright{\textbf{Tutor (Teaching Assistant)}}{Jul. 2020 -- Jun. 2025}
+        \leftright{\textit{The University of Melbourne}}{}
+
+        \medskip
+
+        \leftright{\textbf{Research Assistant}}{Jun. 2019 -- Aug. 2020}
+        \leftright{\textit{The Peter Doherty Institute for Infection and Immunity}}{}
+
+        \medskip
+
+        \leftright{\textbf{Research Intern}}{Jun. 2018 -- Jun. 2019}
+        \leftright{\textit{The Peter Doherty Institute for Infection and Immunity}}{}
+
+    \resumesection{Education}
+
+        \leftright{\textbf{Doctor of Philosophy}}{Jan. 2023 -- Feb. 2026}
+        \leftright{\textit{The University of Melbourne \& CSIRO}}{}
+
+        \medskip
+
+        \leftright{\textbf{Master of Science (with Distinction), Mathematics and Statistics}}{Dec. 2022}
+        \leftright{\textit{The University of Melbourne}}{}
+
+        \medskip
+
+        \leftright{\textbf{Bachelor of Science, Mathematics and Statistics}}{Jul. 2020}
+        \leftright{\textit{The University of Melbourne}}{}
+
+        \medskip
+
+        \leftright{\textbf{Diploma in Computing}}{Jul. 2020}
+        \leftright{\textit{The University of Melbourne}}{}
+
+    \resumesection{Publications}
+    \begin{itemize}
+        \item \textbf{R. Hitchcock} (2026) ``Singular Learning Theory for Deep
+        Learning Interpretability: Stochastic Sampling Methods and Applications
+        to Learning from Physical Systems,'' \textit{PhD Thesis}, The University
+        of Melbourne.
+        \item \textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and
+        J. Zhu (2026) ``Susceptibilities for Neural Networks Learning from
+        Physical Data,'' \textit{Advances in Neural Information Processing
+        Systems (NeurIPS 2026)}.
+        \item \textbf{R. Hitchcock} and J. Hoogland (2025) ``From Global to
+        Local: A Scalable Benchmark for Local Posterior Sampling,''
+        arXiv:2507.21449.
+        \item \textbf{R. Hitchcock}, G. W. Delaney, J. H. Manton, R. Scalzo and
+        J. Zhu (2025) ``Emergence of Computational Structure in a Neural
+        Network Physics Simulator,'' \textit{XAI4Science Workshop at the
+        International Conference on Learning Representations (ICLR 2025)}.
+        \item \textbf{R. Hitchcock} (2022) ``Differentiation, Division and the
+        Bicategory of Landau--Ginzburg Models,'' \textit{MSc Thesis}, The
+        University of Melbourne.
+        \item Y. Kato, T. M. Steiner, H.-Y. Park, \textbf{R. Hitchcock} et al.
+        (2020) ``Display of Native Antigen on cDC1 That Have Spatial Access to
+        Both T and B Cells Underlies Efficient Humoral Vaccination,''
+        \textit{Journal of Immunology} 205(7):1842--1856.
+    \end{itemize}
+
+    \resumesection{Research Notes and Talks}
+    \begin{itemize}
+        \item A. Gordon, \textbf{R. Hitchcock}, I. Mouratidis, J. Wind and
+        D. Murfet (2026) ``Interpretability as a Benchmark for Sampling,''
+        \textit{Resolution}.
+        \item \textbf{R. Hitchcock}, J. Hoogland, G. Wang and A. Gordon (2026)
+        ``Guide for Sampling Hyperparameter Selection,'' \textit{Timaeus}.
+        \item A. Gordon, \textbf{R. Hitchcock} and D. Murfet (2026)
+        ``Interpreting the Ising Model,'' \textit{Timaeus}.
+        \item D. Murfet, A. Gordon, M. Adam, G. Wang, J. Hoogland, G. Baker,
+        W. Snell, S. van Wingerden, A. Newgas, B. Snikkers and
+        \textbf{R. Hitchcock} (2026) ``Spectroscopy at Scale: Finding
+        Interpretable Structure in Pythia-1.4B,'' \textit{Timaeus}.
+        \item ``Sampling Hyperparameter Selection in SLT,'' talk, ILIAD 2026, Berkeley.
+        \item ``Towards Higher Confidence in Alignment,'' talk, Australian AI
+        Safety Forum 2026, Sydney.
+        \item ``The Empirical Process in Singular Learning Theory,'' talk, SLT
+        Seminar 2025, online.
+        \item ``Local Learning Coefficient Estimation: The Story So Far and Open
+        Problems,'' talk, ILIAD 2025, Berkeley.
+        \item ``Induction Heads and Phase Transitions,'' talk, SLT \& Alignment
+        Summit 2023, Berkeley.
+    \end{itemize}
+
+\end{document}
